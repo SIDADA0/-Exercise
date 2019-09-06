@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+    }
+/* 方法一 */
+    /* #zuoguyoushiying{
+      display: flex;
+    }
+    #zuoguyoushiying .left{
+      height: 400px;
+      width: 300px;
+      background: #0ff;
+    }
+    
+    #zuoguyoushiying .right{
+      height: 400px;
+      flex: 1; 
+      background: #f0f;
+    } */
+
+    /* 方法二 */
+    /* #zuoguyoushiying .left{
+      height: 400px;
+      width: 300px;
+      background: #0ff;
+      float: left;
+      opacity: .5;
+    }
+    
+    #zuoguyoushiying .right{
+      height: 400px;
+      margin-left: 300px;
+      background: #f0f;
+    } */
+
+    /* 方法三 */
+    #zuoguyoushiying .left{
+      height: 400px;
+      width: 300px;
+      background: #0ff;
+    }
+    
+    #zuoguyoushiying .right{
+      height: 400px;
+      margin-left: 300px;
+      margin-top: -400px;
+      background: #f0f;
+      opacity: .5;
+    }
+  </style>
+
+</head>
+<body>
+  <div id="zuoguyoushiying">
+    <div class="left"></div>
+    <div class="right"></div>
+  </div>
+</body>
+</html>

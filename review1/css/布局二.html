@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+    }
+    /* 方法一 */
+    /* #middlezishiying{
+      display: flex;
+    }
+    #middlezishiying #left{
+      background: #f0f;
+      width: 200px;
+      height: 400px;
+    }
+    #middlezishiying #middle{
+      background: #ff0;
+      flex-grow: 1;
+}
+    #middlezishiying #right{
+      background: #0ff;
+      width: 300px;
+      height: 400px;
+} */
+
+    #left, #right{
+      float: left;
+      height: 400px;
+      width: 300px;
+      background: #ccc;
+    }
+    #right{
+      float: right;
+    }
+    #middle{
+      background: #f0f;
+      height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 方法一 -->
+  <!-- <div id="middlezishiying">
+    <div id="left"></div>
+    <div id="middle"></div>
+    <div id="right"></div>
+  </div> -->
+
+<!-- 方法二 -->
+  <div id="middlezishiying">
+      <div id="left"></div>
+      <div id="right"></div>
+      <div id="middle"></div>
+    </div>
+</body>
+</html>

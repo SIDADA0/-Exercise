@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0;
+    }
+/* 旧 */
+    /* .parent{
+      display: -webkit-box;
+      -webkit-box-align: center;
+    }
+
+    .box1{
+      background: #f00;
+      -webkit-box-flex: 1;
+      height: 400px;
+      -webkit-box-ordinal-group: 1; 
+    }
+
+      .box2{
+      background: #0f0;
+      -webkit-box-flex: 2;
+      margin: 0 30px;
+      height: 300px;
+      -webkit-box-ordinal-group: 3;
+    }
+    .box3{
+      background: #ff0;
+      -webkit-box-flex: 1;
+      height: 200px;
+      -webkit-box-ordinal-group: 2;
+    } */
+
+    .parent{
+      display: flex;
+    }
+
+    .box{
+      height: 400px;
+      flex-grow: 1;
+      width: 0;
+    }
+
+    .box1{
+      background: #ff0;
+    }
+
+    .box2{
+      background: #0f0;
+    }
+
+    .box3{
+      background: #0ff;
+    }
+  </style>
+</head>
+<body>
+  <!-- ul#ul1>li{$$$}*5 -->
+<div class="parent">
+  <div class="box box1"></div>
+  <div class="box box2"></div>
+  <div class="box box3"></div>
+</div>
+</body>
+</html>
