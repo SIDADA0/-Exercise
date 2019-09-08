@@ -5,8 +5,98 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <style>
+  #a1{
+    width: 400px;
+    height: 400px;
+    border: 1px dashed;
+    background: #ff0;
+    /* position: relative; */
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    弹性盒子模型居中 */
+  }
+
+  #a2{
+    width: 200px;
+    height: 200px;
+    background: #0ff;
+    /* position: absolute; */
+
+    /* transform: rotate(60deg);
+    transform-origin: 0 0; */
+    /* 旋转角度  旋转的点 */
+    
+    /* transform: translate(100px,80px); */
+    /* 平移 */
+    
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    居中 */
+
+
+    /* transform: scale(-.8); */
+    /* 拉伸放大缩小 -旋转180度 */
+  }
+
+
+  #s1{
+    background: salmon;
+    width: 400px;
+    height: 400px;
+    border: 2px dotted brown;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 1s; /*延迟*/
+  }
+
+  #s1:hover{
+    background: sienna;
+    transform: translate(100px,100px);
+  }
+
+  #s2{
+    background: lightgreen;
+    width: 200px;
+    height: 200px;
+  }
+
+    /* @keyframes move {
+            from{
+
+            }
+
+            20%{
+                transform: translateX(100px);
+            }
+            40%{
+                transform: translateX(200px);
+            }
+
+            60%{
+                transform: translateX(300px);
+            }
+            80%{
+                transform: translateX(400px);
+            }
+
+            to{
+                transform: translateX(500px);
+            }
+        } */
+  </style>
 </head>
 <body>
-  
+  <!-- <div id="a1">
+    <div id="a2">sidada</div>
+  </div> -->
+
+  <div id="s1">
+    <!-- <div id="s2">qaq</div> -->
+  </div>
 </body>
 </html>
