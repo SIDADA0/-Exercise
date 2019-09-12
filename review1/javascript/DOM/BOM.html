@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <button id="return">一个按钮</button>
+  <script>
+  // 定时器
+  // var n=1;
+  // var timer = setInterval(function(){
+  //   if(n >=5){
+  //     clearInterval(timer);
+  //   }
+  //   console.log(n++);
+  // },1000);
+
+  // setTimeout('console.log(++n)',1000);
+  
+  //事件
+  var oBtn = document.getElementById('return');
+  oBtn.onclick = function(){
+    // console.log(Math.random()*10);
+    // history.back();
+    history.go(-1);
+  }
+  </script>
+  
+</body>
+</html>
